@@ -106,7 +106,8 @@ collections:
           - { label: "Showtape Puppets", value: "Showtape Puppets" }
           - { label: "Family Vision", value: "Family Vision" }
           - { label: "ShowBiz Pizza Programs", value: "ShowBiz Pizza Programs" }
-          - { label: "Merchandise", value: "Merchandise" }
+          - { label: "In-Store Merchandise", value: "In-Store Merchandise" }
+          - { label: "Products", value: "Products" }
           - { label: "Menu Items", value: "Menu Items" }
           - { label: "Tokens", value: "Tokens" }
           - { label: "Tickets", value: "Tickets" }
@@ -124,7 +125,7 @@ collections:
           - { label: "Promotional Material", value: "Promotional Material" }
           - { label: "Documents", value: "Documents" }
           - { label: "Corporate Documents", value: "Corporate Documents" }
-          - { label: "Training, Updates, & Company Media", value: "Training, Updates, & Company Media" }
+          - { label: "Company Media", value: "Company Media" }
           - { label: "News Footage", value: "News Footage" }
           - { label: "Commercials", value: "Commercials" }
           - { label: "History", value: "History" }
@@ -157,6 +158,7 @@ collections:
         - { label: "Jim Henson's Creature Shop", value: "Jim Henson's Creature Shop" }
         - { label: "Sally Corporation", value: "Sally Corporation" }
         - { label: "Unknown Manufacturers", value: "Unknown Manufacturers" }
+        - { label: "AnimatedFX", value: "AnimatedFX" }
         - { label: "Villalobos Producciones", value: "Villalobos Producciones" }
         - { label: "Vp Animations", value: "Vp Animations" }
         - { label: "Chuck E. Cheese in the Galaxy 5000", value: "Chuck E. Cheese in the Galaxy 5000" }
@@ -223,6 +225,7 @@ collections:
       - label: "Citations (List sources here!)"
         name: "citations"
         widget: "list"
+        required: false
         field: {label: Source, name: source, widget: string}
       - label: "Pages Photo Depicts (Use Page Title)"
         name: "pages"
